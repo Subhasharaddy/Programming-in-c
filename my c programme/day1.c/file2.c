@@ -5,7 +5,6 @@ int main(){
     printf("enter a string: ");
     scanf("%c",&string);
     printf("you enterd %s as a string\n",string);
-    //system("pause");
     char c; 
     printf("\nEnter a character: ");
     scanf("%c",&c);
