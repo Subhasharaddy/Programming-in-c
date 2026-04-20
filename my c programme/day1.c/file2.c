@@ -1,17 +1,11 @@
 #include<stdio.h>
-#include<string.h>
-int main(){
-    char string[20];
-    printf("enter a string: ");
-    scanf("%c",&string);
-    printf("you enterd %s as a string\n",string);
-    //system("pause");
-    char c; 
-    printf("\nEnter a character: ");
-    scanf("%c",&c);
-    p
-    getchar();
-    c =getchar();
-    printf("You entered: %c\n", c);
-    return 0;
-}
+void main(){
+    int num;
+    printf("enter the integer : ");
+    scanf("%d",&num);
+    if(num%2==0){
+        printf("The num %d is even",num);
+    }else{
+        printf("The num %d is odd",num);
+    }
+    }
